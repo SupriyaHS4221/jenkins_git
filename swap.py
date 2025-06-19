@@ -1,13 +1,14 @@
-import sys
-
-a = int(sys.argv[1])
-b = int(sys.argv[2])
+# Swapping with a temporary variable
+a = 10
+b = 20
 
 print("Before swapping:")
 print("a =", a)
 print("b =", b)
 
-a, b = b, a
+temp = a
+a = b
+b = temp
 
 print("After swapping:")
 print("a =", a)
