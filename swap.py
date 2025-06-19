@@ -1,7 +1,7 @@
 # Swapping with a temporary variable
 a = 10
 b = 20
-
+#before swapping
 print("Before swapping:")
 print("a =", a)
 print("b =", b)
